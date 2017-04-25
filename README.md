@@ -1,6 +1,6 @@
 # npmtest-yazl
 
-#### test coverage for  [yazl (v2.4.2)](https://github.com/thejoshwolfe/yazl)  [![npm package](https://img.shields.io/npm/v/npmtest-yazl.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-yazl) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-yazl.svg)](https://travis-ci.org/npmtest/node-npmtest-yazl)
+#### basic test coverage for  [yazl (v2.4.2)](https://github.com/thejoshwolfe/yazl)  [![npm package](https://img.shields.io/npm/v/npmtest-yazl.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-yazl) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-yazl.svg)](https://travis-ci.org/npmtest/node-npmtest-yazl)
 
 #### yet another zip library for node
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-yazl/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-yazl/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-yazl/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-yazl/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-yazl/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-yazl/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-yazl/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-yazl/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-yazl/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-yazl/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-yazl/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-yazl/build/coverage.html/index.html)
 
@@ -81,7 +81,8 @@
     "scripts": {
         "test": "node test/test.js"
     },
-    "version": "2.4.2"
+    "version": "2.4.2",
+    "bin": {}
 }
 ```
 
